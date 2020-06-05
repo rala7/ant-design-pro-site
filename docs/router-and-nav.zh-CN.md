@@ -194,7 +194,7 @@ router.push('/dashboard/anyParams');
 
 //or
 
-import Link from 'umi/link';
+import {Link} from 'umi';
 
 <Link to="/dashboard/anyParams">go</Link>;
 ```
